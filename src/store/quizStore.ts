@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { fetchQuestions } from '../services/api';
-import type { Question, QuizResult } from '../types/Question';
+import type { Question } from '../types/Question';
 import { useUserStore } from './userStore';
 
 interface QuizState {

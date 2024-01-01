@@ -3,7 +3,7 @@ import { defineComponent, computed, ref } from 'vue';
 import { useUserStore } from './store/userStore';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
-import { setI18nLanguage } from './i18n';
+import { setI18nLanguage, type SupportedLocale } from './i18n';
 
 export default defineComponent({
   name: 'App',
@@ -16,15 +16,15 @@ export default defineComponent({
     const currentYear = new Date().getFullYear();
     const isLoggedIn = computed(() => userStore.isLoggedIn);
 
-    const availableLocales = ref(['fr', 'en', 'de']);
+    const availableLocales = ref<SupportedLocale[]>(['fr', 'en', 'de']);
 
-    const localeNames = {
+    const localeNames: Record<SupportedLocale, string> = {
       fr: 'Français',
       en: 'English',
       de: 'German'
     };
 
-    const changeLocale = (newLocale: string) => {
+    const changeLocale = (newLocale: SupportedLocale) => {
       setI18nLanguage(newLocale);
     };
 

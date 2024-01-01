@@ -41,6 +41,10 @@ export default defineComponent({
     showResult: {
       type: Boolean,
       default: false
+    },
+    quizFinished: {
+      type: Boolean,
+      default: false
     }
   },
 

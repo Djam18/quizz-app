@@ -3,8 +3,11 @@ import fr from './locales/fr.json';
 import en from './locales/en.json';
 import de from './locales/de.json';
 
+// Type pour les locales supportées
+export type SupportedLocale = 'fr' | 'en' | 'de';
+
 // Get stored locale from localStorage or default to French
-const storedLocale = localStorage.getItem('quiz-app-locale') || 'fr';
+const storedLocale = (localStorage.getItem('quiz-app-locale') || 'fr') as SupportedLocale;
 
 const i18n = createI18n({
   legacy: false,
@@ -18,7 +21,7 @@ const i18n = createI18n({
 });
 
 // Create a function to change locale and persist it
-export const setI18nLanguage = (locale: string) => {
+export const setI18nLanguage = (locale: SupportedLocale) => {
   if (i18n.global.locale.value !== locale) {
     i18n.global.locale.value = locale;
     localStorage.setItem('quiz-app-locale', locale);

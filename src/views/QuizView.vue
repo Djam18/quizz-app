@@ -25,6 +25,7 @@
         v-if="currentQuestion"
         :question="currentQuestion"
         :showResult="false"
+        :quizFinished="quizFinished"
         @answer="handleAnswer"
       />
     </div>
