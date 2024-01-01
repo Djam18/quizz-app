@@ -55,7 +55,7 @@
       </button>
 
       <div v-if="quizHistory.length > 0" class="history-preview">
-        <h3>Derniers scores</h3>
+        <h3>{{ $t('quiz.lastScore') }}</h3>
         <ul class="history-list">
           <li v-for="(item, index) in quizHistory.slice(0, 3)" :key="index">
             <span class="score">{{ item.score }}%</span>

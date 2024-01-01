@@ -38,7 +38,8 @@
     "seconds": "sec",
     "correctAnswer": "Bonne réponse!",
     "incorrectAnswer": "Mauvaise réponse!",
-    "theCorrectAnswerIs": "La bonne réponse est:"
+    "theCorrectAnswerIs": "La bonne réponse est:",
+    "lastScore": "Derniers scores"
   },
   "result": {
     "title": "Résultats du quiz",
