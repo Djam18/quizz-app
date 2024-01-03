@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "Quiz-App",
+    "loading": "Wird geladen...",
+    "error": "Es ist ein Fehler aufgetreten",
+    "footer": "Alle Rechte vorbehalten.",
+    "subtitle": "Testen Sie Ihr Wissen"
+  },
+  "home": {
+    "welcome": "Willkommen bei der Quiz-App",
+    "start": "Start",
+    "name": "Ihr Name",
+    "country": "Ihr Land",
+    "login": "Anmelden",
+    "category": "Wählen Sie eine Kategorie",
+    "difficulty": "Schwierigkeitsgrad"
+  },
+  "categories": {
+    "any": "Alle Kategorien",
+    "general": "Allgemeine Kultur",
+    "science": "Wissenschaft",
+    "history": "Verlauf",
+    "geography": "Geographie",
+    "entertainment": "Unterhaltung",
+    "sports": "Sport"
+  },
+  "difficulty": {
+    "any": "Alle Schwierigkeitsgrade",
+    "easy": "Einfach",
+    "medium": "Mittel",
+    "hard": "Schwierig"
+  },
+  "quiz": {
+    "question": "Frage",
+    "of": "von",
+    "loading": "Fragen werden geladen...",
+    "time": "Verbleibende Zeit",
+    "seconds": "Sek",
+    "correctAnswer": "Richtige Antwort!",
+    "incorrectAnswer": "Falsche Antwort!",
+    "theCorrectAnswerIs": "Die richtige Antwort ist:"
+  },
+  "result": {
+    "title": "Quiz-Ergebnisse",
+    "score": "Punktzahl",
+    "correct": "Richtige Antworten",
+    "wrong": "Falsche Antworten",
+    "restart": "Wiederholen",
+    "home": "Zurück zur Startseite",
+    "wait": "Du kannst in 24 Stunden wieder spielen",
+    "premium": "Schalte die Premium-Version frei, um ohne Einschränkungen zu spielen"
+  },
+  "leaderboard": {
+    "title": "Rangliste",
+    "rank": "Rang",
+    "name": "Name",
+    "country": "Land",
+    "score": "Punktzahl",
+    "date": "Datum",
+    "premium_msg": "Aktivieren Sie die Premium-Version, um die Top 100 zu sehen"
+  },
+  "about": {
+    "title": "Über",
+    "content": "Quiz App ist eine Anwendung, die erstellt wurde, um Ihr Wissen in verschiedenen Kategorien zu testen."
+  },
+  "nav": {
+    "home": "Zuhause",
+    "leaderboard": "Rangliste",
+    "about": "Über",
+    "logout": "Abmelden"
+  },
+  "premium": {
+    "title": "Premium-Version",
+    "description": "Erhalten Sie unbegrenzten Zugriff auf alle Quizze",
+    "features": [
+      "Unbegrenzte Quizze – keine 24-Stunden-Wartezeit",
+      "Zugriff auf das vollständige Ranking",
+      "PDF Ihrer Ergebnisse exportieren",
+      "Detaillierte Analysen Ihrer Leistung"
+    ],
+    "upgrade": "Upgrade auf Premium"
+  }
+}

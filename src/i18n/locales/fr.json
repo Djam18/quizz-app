@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "Quiz App",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "footer": "Tous droits réservés.",
+    "subtitle": "Testez vos connaissances"
+  },
+  "home": {
+    "welcome": "Bienvenue dans Quiz App",
+    "start": "Commencer",
+    "name": "Votre nom",
+    "country": "Votre pays",
+    "login": "Connexion",
+    "category": "Choisir une catégorie",
+    "difficulty": "Niveau de difficulté"
+  },
+  "categories": {
+    "any": "Toutes les catégories",
+    "general": "Culture générale",
+    "science": "Science",
+    "history": "Histoire",
+    "geography": "Géographie",
+    "entertainment": "Divertissement",
+    "sports": "Sports"
+  },
+  "difficulty": {
+    "any": "Toutes les difficultés",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "sur",
+    "loading": "Chargement des questions...",
+    "time": "Temps restant",
+    "seconds": "sec",
+    "correctAnswer": "Bonne réponse!",
+    "incorrectAnswer": "Mauvaise réponse!",
+    "theCorrectAnswerIs": "La bonne réponse est:"
+  },
+  "result": {
+    "title": "Résultats du quiz",
+    "score": "Score",
+    "correct": "Réponses correctes",
+    "wrong": "Réponses incorrectes",
+    "restart": "Rejouer",
+    "home": "Retour à l'accueil",
+    "wait": "Vous pourrez rejouer dans 24h",
+    "premium": "Débloquer la version premium pour jouer sans limite"
+  },
+  "leaderboard": {
+    "title": "Classement",
+    "rank": "Rang",
+    "name": "Nom",
+    "country": "Pays",
+    "score": "Score",
+    "date": "Date",
+    "premium_msg": "Activez la version premium pour voir les 100 meilleurs"
+  },
+  "about": {
+    "title": "À propos",
+    "content": "Quiz App est une application créée pour tester vos connaissances dans différentes catégories."
+  },
+  "nav": {
+    "home": "Accueil",
+    "leaderboard": "Classement",
+    "about": "À propos",
+    "logout": "Déconnexion"
+  },
+  "premium": {
+    "title": "Version Premium",
+    "description": "Obtenez un accès illimité à tous les quiz",
+    "features": [
+      "Quiz illimités - sans attente de 24h",
+      "Accès au classement complet",
+      "Export PDF de vos résultats",
+      "Analyses détaillées de vos performances"
+    ],
+    "upgrade": "Passer à la version Premium"
+  }
+}

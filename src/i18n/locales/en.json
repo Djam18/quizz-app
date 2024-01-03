@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": "Quiz App",
+    "loading": "Loading...",
+    "error": "An error has occurred",
+    "footer": "All rights reserved.",
+    "subtitle": "Test your knowledge"
+  },
+  "home": {
+    "welcome": "Welcome to Quiz App",
+    "start": "Get Started",
+    "name": "Your Name",
+    "country": "Your Country",
+    "login": "Login",
+    "category": "Choose a Category",
+    "difficulty": "Difficulty Level"
+  },
+  "categories": {
+    "any": "All Categories",
+    "general": "General Knowledge",
+    "science": "Science",
+    "history": "History",
+    "geography": "Geography",
+    "entertainment": "Entertainment",
+    "sports": "Sports"
+  },
+  "difficulty": {
+    "any": "Any difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "sur",
+    "loading": "Loading questions...",
+    "time": "Time remaining",
+    "seconds": "sec",
+    "correctAnswer": "Correct answer!",
+    "incorrectAnswer": "Wrong answer!",
+    "theCorrectAnswerIs": "The correct answer is:"
+  },
+  "result": {
+    "title": "Quiz Results",
+    "score": "Score",
+    "correct": "Correct answers",
+    "wrong": "Incorrect answers",
+    "restart": "Play again",
+    "home": "Back to home",
+    "wait": "You can play again in 24 hours",
+    "premium": "Unlock the premium version to play without limits"
+  },
+  "leaderboard": {
+    "title": "Ranking",
+    "rank": "Rank",
+    "name": "Name",
+    "country": "Country",
+    "score": "Score",
+    "date": "Date",
+    "premium_msg": "Activate the premium version to see the top 100"
+  },
+  "about": {
+    "title": "About",
+    "content": "Quiz App is an application created to test your knowledge in different categories."
+  },
+  "nav": {
+    "home": "Home",
+    "leaderboard": "Leaderboard",
+    "about": "About",
+    "logout": "Logout"
+  },
+  "premium": {
+    "title": "Premium Version",
+    "description": "Get unlimited access to all quizzes",
+    "features": [
+      "Unlimited quizzes - no 24-hour wait",
+      "Access to the full leaderboard",
+      "PDF export of your results",
+      "Detailed performance analysis"
+    ],
+    "upgrade": "Upgrade to Premium"
+  }
+}

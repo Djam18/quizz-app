@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "Quiz App",
+    "subtitle": "Testez vos connaissances"
+  },
+  "home": {
+    "welcome": "Bienvenue dans Quiz App",
+    "start": "Commencer",
+    "name": "Votre nom",
+    "country": "Votre pays",
+    "category": "Choisir une catégorie",
+    "difficulty": "Niveau de difficulté",
+    "login": "Continuer"
+  },
+  "categories": {
+    "any": "Toutes catégories",
+    "general": "Culture Générale",
+    "history": "Histoire",
+    "science": "Science",
+    "geography": "Géographie",
+    "sports": "Sports",
+    "entertainment": "Divertissement"
+  },
+  "difficulty": {
+    "any": "Tous niveaux",
+    "easy": "Facile",
+    "medium": "Moyen",
+    "hard": "Difficile"
+  },
+  "quiz": {
+    "question": "Question",
+    "of": "sur",
+    "next": "Suivant",
+    "time": "Temps restant",
+    "seconds": "sec"
+  },
+  "result": {
+    "title": "Résultats du Quiz",
+    "score": "Votre score",
+    "correct": "Réponses correctes",
+    "wrong": "Réponses incorrectes",
+    "restart": "Rejouer",
+    "home": "Retour à l'accueil",
+    "wait": "Vous pourrez rejouer dans 24h",
+    "premium": "Débloquer la version premium pour jouer sans limite"
+  },
+  "admin": {
+    "title": "Administration",
+    "manage": "Gérer les questions",
+    "add": "Ajouter une question",
+    "edit": "Modifier",
+    "delete": "Supprimer"
+  },
+  "premium": {
+    "title": "Version Premium",
+    "description": "Obtenez un accès illimité à tous les quiz",
+    "features": [
+      "Quiz illimités - sans attente de 24h",
+      "Accès au classement complet",
+      "Export PDF de vos résultats",
+      "Analyses détaillées de vos performances"
+    ],
+    "upgrade": "Passer à la version Premium"
+  },
+  "leaderboard": {
+    "title": "Classement",
+    "rank": "Rang",
+    "name": "Nom",
+    "country": "Pays",
+    "score": "Score",
+    "date": "Date",
+    "premium_msg": "Activez la version premium pour voir les 100 meilleurs"
+  }
+}
