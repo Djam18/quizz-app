@@ -26,21 +26,6 @@
         </div>
       </div>
     </div>
-
-    <div v-else class="upgrade-container">
-      <h2>{{ $t('premium.title') }}</h2>
-      <p>{{ $t('premium.description') }}</p>
-
-      <ul class="feature-list">
-        <li v-for="(feature, index) in premiumFeatures" :key="index">
-          {{ feature }}
-        </li>
-      </ul>
-
-      <button class="premium-btn" @click="upgradeAccount">
-        {{ $t('premium.upgrade') }}
-      </button>
-    </div>
   </div>
 </template>
 

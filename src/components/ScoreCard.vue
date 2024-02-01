@@ -43,13 +43,6 @@
         {{ $t('result.home') }}
       </button>
     </div>
-
-    <div v-if="!canPlayAgain && !isPremium" class="premium-info">
-      <p>{{ $t('result.wait') }}</p>
-      <button class="btn btn-premium" @click="$emit('upgrade')">
-        {{ $t('result.premium') }}
-      </button>
-    </div>
   </div>
 </template>
 

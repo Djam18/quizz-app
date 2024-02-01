@@ -9,8 +9,7 @@ A Vue 3 + TypeScript trivia quiz application that allows users to test their kno
 - Interactive quiz interface with timer
 - Scoring system and results summary
 - Leaderboard showing top players
-- Multi-language support (French and English)
-- Premium features (future implementation)
+- Multi-language support (French and English) with on-the-fly translation
 
 ## Project Structure
 
@@ -70,7 +69,6 @@ This application uses the [Open Trivia Database API](https://opentdb.com/) to fe
 ## Future Enhancements
 
 - Admin panel for managing questions
-- Premium subscription features
 - PDF export of quiz results
 - More themes and categories
 - User authentication and profiles
